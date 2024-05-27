@@ -74,6 +74,6 @@ class Account:
   def close_account(self):
     print(f"Account for {self.owner_name} closed")
 
-  # Helper method to add transactions to the history
+  # add transactions to the history
   def add_transaction(self, description):
     self.transactions.append(description)
